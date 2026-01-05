@@ -40,7 +40,7 @@ export default function QueueDisplay({ queue, onUpdateStatus, oneRemove }) {
                         <button
                          className="bg-green-700 px-4 py-2 rounded-sm outline-0 cursor-pointer
                         hover:bg-green-800" 
-                        onClick={()=>onUpdateStatus(customer.id, "completed")}>Serve</button>
+                        onClick={()=>onUpdateStatus(customer.id, "completed")}>Completed</button>
                     )}
                      <button
                       className="bg-red-700 px-4 py-2 rounded-sm outline-0 cursor-pointer
