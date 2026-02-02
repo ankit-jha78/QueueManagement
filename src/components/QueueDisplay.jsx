@@ -21,7 +21,7 @@ export default function QueueDisplay({ queue, onUpdateStatus, oneRemove }) {
            {queue.map((customer)=>(
             <div key={customer.id} className="bg-gray-900 p-3  capitalize m-4 rounded-md flex justify-between">
                <div className="">
-                <h3 className="text-[18px]">{customer.name}</h3>
+                <h3 className="text-[18px] capitalize">{customer.name}</h3>
                 <p className="text-gray-400">{customer.service}</p>
                  <span className="mt-2"
                 style={{color :getStatusColor(customer.status)}}>
